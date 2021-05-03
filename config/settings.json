@@ -3,30 +3,31 @@
     "cartDescription": "expressCart",
     "cartLogo": "",
     "baseUrl": "http://localhost:1111",
-    "emailHost": "smtp-mail.outlook.com",
+    "emailHost": "smtp.gmail.com",
     "emailPort": 587,
     "emailSecure": false,
-    "emailUser": "hi@markmoffat.com",
-    "emailPassword": "this_is_the_smtp_password",
-    "emailAddress": "hi@markmoffat.com",
+    "emailUser": "nitinvohra77777@gmail.com",
+    "emailPassword": "Nitinvohra1!",
+    "emailAddress": "nitinvohra77777@gmail.com",
     "productsPerRow": 3,
-    "productsPerPage": 6,
-    "footerHtml": "&lt;h4 class=&quot;text-center&quot;&gt;Powered by expressCart&lt;/h4&gt;",
+    "productsPerPage": 9,
+    "footerHtml": "&lt;p&gt;\r\n&lt;/p&gt;",
     "googleAnalytics": "",
     "injectJs": "",
     "customCss": "",
-    "currencySymbol": "£",
+    "currencySymbol": "Rs.",
     "currencyISO": "USD",
     "paymentGateway": [
-        "stripe" 
+        "instore",
+        "stripe",
+        "zip"
     ],
-    "databaseConnectionString": "mongodb://127.0.0.1:27017/expresscart",
+    "databaseConnectionString": "mongodb://127.0.0.1:27017/ClothingApp",
     "theme": "Cloth",
     "trackStock": false,
     "orderHook": "",
     "availableLanguages": [
-        "en",
-        "it"
+        "en"
     ],
     "defaultLocale": "en",
     "maxQuantity": 25,
@@ -47,5 +48,9 @@
         }
     },
     "showRelatedProducts": true,
-    "showHomepageVariants": false
+    "showHomepageVariants": false,
+    "secretCookie": "95a895124ff78560b7484e206c42e5ec22f5baf0",
+    "secretSession": "6b1da9512be4c3ff3904465bb30134d9c605bc35",
+    "themeViews": "../views/themes/Cloth/",
+    "env": ""
 }

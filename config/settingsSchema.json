@@ -61,7 +61,7 @@
         },
         "currencySymbol": {
             "type": "string",
-            "default": "£"
+            "default": "Rs."
         },
         "currencyISO": {
             "type": "string",
